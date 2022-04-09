@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.Elekrity {
+  font-size: 30px;
+  color: #0129ff;
+  font-weight: 700;
+}
+
+.nav-trial {
+  padding: 0px 90px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.parent {
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav_links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.nav_links li {
+  list-style: none;
+}
+
+.nav_links li a {
+  text-decoration: none;
+}
+
+img {
+  position: relative;
+  left: 0px;
+}
+
+.lorem {
+  color: #000;
+  opacity: 0.4;
+  padding-left: 10%;
+  padding-bottom: 20px;
+}
+
+.container {
+  background-color: #f1f1f1;
+  padding: 40px 60px;
+}
+
+.create-btn {
+  background-color: #0129ff;
+  color: #ffffff;
+  border: none;
+  padding: 12px 0px;
+  border-radius: 10px;
+}
+
+.login_words {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 25px;
+  margin: 0px;
+}
+
+.member {
+  font-size: 20px;
+}
+
+.signup_elekrity {
+  font-size: 40px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.member span a {
+  font-size: 20px;
+  color: #0129ff;
+  padding-left: 30px;
+}
+
+.form_label {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.form_gr {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.form_input {
+  padding: 10px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.form_gr:first-of-type {
+  padding-top: 20px;
+}
+
+.login_words>span {
+  font-size: 20px;
+  text-align: center;
+}
+
+.login_words>span::before {
+  content: " ";
+  height: 2px;
+  width: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.login_words>span::after {
+  content: "";
+}
+
+.cancelbtn {
+  background-color: #fff;
+  border: 2px solid #0129ff;
+  color: #000;
+}
+
+.privacy {
+  font-size: 10px;
+}
+
+.privacy span {
+  color: #0129ff;
+}
+
+.call_you {
+  padding: 60px 250px;
+}
+
+.img_callyou {
+  padding-left: 100px;
+}
+
+.callyou {
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.callyou span {
+  color: #64c722;
+  font-weight: 900;
+}
+
+.call p {
+  font-size: 40px;
+  color: #000;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
+  padding: 7px 0px;
+  margin: 0px;
+}
+
+.call p:nth-child(2) {
+  font-size: 22px;
+  opacity: 0.7;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+
+.callyou_input {
+  padding-top: 10px;
+}
+
+.callyou_input input {
+  border: none;
+  border-bottom: 2px solid #000;
+  opacity: 0.4;
+  width: 100%;
+  padding: 15px 0px;
+  font-size: 20px;
+}
+
+.call_btn {
+  padding: 5px 0px 0px 0px;
+}
+
+.call_btn button {
+  background-color: #0129ff;
+  border-radius: 6px;
+  border: 2px solid #0129ff;
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'Poppins', sans-serif;
+  padding: 5px 50px;
+  cursor: pointer;
+}
+
+.call_1 {
+  display: flex;
+  padding-top: 50px;
+}
+
+.call_enter p {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  opacity: 0.7;
+  padding: 12px 0px 0px 30px;
+  margin: 0px;
+}
+
+.call_btm p {
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  opacity: 0.3;
+  margin: 0px;
+  padding: 70px 0px 0px 0px;
+}
