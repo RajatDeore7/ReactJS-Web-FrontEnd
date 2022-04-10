@@ -37,14 +37,27 @@ a {
   display: flex;
   justify-content: space-around;
   width: 30%;
+  align-items: center;
 }
 
 .nav_links li {
   list-style: none;
 }
 
+.nav_links li:last-of-type {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.nav_links li:last-of-type a {
+  font-size: 20px;
+  font-weight: 700;
+}
+
 .nav_links li a {
   text-decoration: none;
+  color: #000;
 }
 
 img {
@@ -148,7 +161,7 @@ img {
 }
 
 .call_you {
-  padding: 60px 250px;
+  padding: 50px 250px;
 }
 
 .img_callyou {
@@ -230,4 +243,8 @@ img {
   opacity: 0.3;
   margin: 0px;
   padding: 70px 0px 0px 0px;
+}
+
+form.pg4 {
+  font-size: 17px;
 }
