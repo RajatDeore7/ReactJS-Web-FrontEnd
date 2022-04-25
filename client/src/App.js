@@ -18,7 +18,7 @@ function App() {
         <div className='login'>
           <Heading />
           <div className='img_main'>
-            <img src={main_img} width="500" height="490" />
+            <img src={main_img} alt="user_ico" width="500" height="490" />
           </div>
         </div>
         <div className='login_form'>

@@ -4,12 +4,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.Elekrity {
-  font-size: 30px;
-  color: #0129ff;
-  font-weight: 700;
-}
-
 .nav-trial {
   padding: 0px 90px;
 }
@@ -17,20 +11,14 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   background-color: #ffffff;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 }
 
-.parent {
-  padding: 20px 100px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-a {
-  text-decoration: none;
+.Elekrity {
+  font-size: 30px;
+  color: #0129ff;
+  font-weight: 700;
 }
 
 .nav_links {
@@ -58,6 +46,17 @@ a {
 .nav_links li a {
   text-decoration: none;
   color: #000;
+}
+
+.parent {
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
 }
 
 img {
@@ -188,7 +187,23 @@ img {
   margin: 0px;
 }
 
+.callpg5 p {
+  font-size: 37px;
+  color: #000;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
+  padding: 7px 0px;
+  margin: 0px;
+}
+
 .call p:nth-child(2) {
+  font-size: 22px;
+  opacity: 0.7;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+
+.callpg5 p:nth-child(2) {
   font-size: 22px;
   opacity: 0.7;
   color: #000;
